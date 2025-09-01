@@ -1,0 +1,46 @@
+# K8S-related
+logs/
+.log-runner.sh
+done
+._*.yaml
+tmeseg-infer/*.yaml
+
+
+# Mac-related
+.DS_Store
+._.DS_Store
+
+discovery*.csv
+
+# model checkpoints
+tmeseg-infer/model/mit*
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+._*.py
+*.pyc
+.venv/
+.env
+
+# R
+.Rhistory
+.Rproj.user/
+.RData
+# OS/IDE
+.DS_Store
+.vscode/
+# Data/outputs (adjust to your needs)
+data/
+outputs/
+*.tiff
+*.tif
+*.ndpi
+*.svs
+*.pt
+*.h5
+*.hdf5
+
+cell-refine/*
