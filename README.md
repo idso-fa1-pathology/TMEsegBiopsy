@@ -1,5 +1,5 @@
 ## TMEseg
-This repository is for the manuscript entitled with "Al-Derived Tumor-Infiltrating Lymphocytes Enhance the Prediction of Pathologic Complete Response in an Early-Stage Triple-Negative Breast Cancer Prospective Trial" Submitted to Clinical Cancer Research. It could guide you to generate TME masks with a well-trained deep learning model for semantic segmentation.
+This repository is for the manuscript "Al-Derived Tumor-Infiltrating Lymphocytes Enhance the Prediction of Pathologic Complete Response in an Early-Stage Triple-Negative Breast Cancer Prospective Trial" submitted to Clinical Cancer Research. It could guide you to generate TME masks with a well-trained AI model for semantic segmentation.
 
 ### Generating tiles for whole slide images
 Please follow instructions in https://github.com/xi11/AIgrading/generating_tiles.
