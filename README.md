@@ -4,7 +4,7 @@ This repository is for the manuscript entitled with "Al-Derived Tumor-Infiltrati
 ### Generating tiles for whole slide images
 Please follow instructions in https://github.com/xi11/AIgrading/generating_tiles.
 
-### Building env follosing Dockerfile
+### Building env with Dockerfile
 
 ### Training
 ```
