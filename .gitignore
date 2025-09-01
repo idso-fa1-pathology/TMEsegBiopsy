@@ -4,6 +4,7 @@ logs/
 done
 ._*.yaml
 tmeseg-infer/*.yaml
+._Dockerfile
 
 
 # Mac-related
