@@ -30,3 +30,4 @@ cd ./tmeseg-infer
     -nJ 32
 
 ```
+Users can also have a reproducible run through [Code Ocean](https://codeocean.com/capsule/7777436/tree/v1).
