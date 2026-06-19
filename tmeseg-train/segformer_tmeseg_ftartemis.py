@@ -112,7 +112,7 @@ model = TFAutoModelForSemanticSegmentation.from_pretrained(model_checkpoint, num
                                                            id2label=id2label, label2id=label2id, ignore_mismatched_sizes=True)
 model.compile(optimizer=optimizer)
 model_name = model_checkpoint.split("/")[-1]
-model_id = f"../tmeseg-infer/model/{model_name}-finetunedBRCA-Artemis"
+model_id = f"../tmeseg-infer/model/{model_name}-Artemis"
 model.fit(train_ds,
           steps_per_epoch=num_img // batch_size,
           epochs=num_epochs, verbose=1)

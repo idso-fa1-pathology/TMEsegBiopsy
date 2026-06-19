@@ -10,11 +10,17 @@ tmeseg-infer/*.yaml
 # Mac-related
 .DS_Store
 ._.DS_Store
+._*
 
-discovery*.csv
+tmeseg-eval/predict_patch.py
+tmeseg-eval/evaluate_TMEseg6class.py
 
-# model checkpoints
+# model checkpoints and data
 tmeseg-infer/model/mit*
+data/*.csv
+figure/*.csv
+figure/*.pdf
+zenodo/
 
 
 # Byte-compiled / optimized / DLL files
