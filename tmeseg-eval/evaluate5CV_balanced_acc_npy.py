@@ -37,11 +37,11 @@ class_colors_artemis = [(0, 0, 0), (0, 0, 128), (0, 204, 255), (255, 255, 0),(25
 # Point these to your saved fold model folders (edit paths if needed)
 # Example: model_dirs[1] is the folder created by save_pretrained for fold 1
 model_dirs = {
-    1: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-Artemis-fold1"),
-    2: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-Artemis-fold2"),
-    3: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-Artemis-fold3"),
-    4: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-Artemis-fold4"),
-    5: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-Artemis-fold5"),
+    1: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-biopsy-fold1"),
+    2: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-biopsy-fold2"),
+    3: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-biopsy-fold3"),
+    4: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-biopsy-fold4"),
+    5: Path("/path/to/tmeseg-infer/model/mit-b3-finetuned-TCGAbcss-biopsy-fold5"),
 }
 
 # -----------------------

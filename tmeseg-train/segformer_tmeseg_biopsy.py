@@ -192,8 +192,8 @@ if __name__ == "__main__":
         0: "background",
         1: "tumor",
         2: "stroma",
-        3: "benign",
-        4: "necrosis",
+        3: "benign_epi",
+        4: "necrosis_hemo",
         5: "adipose",
     }
 
