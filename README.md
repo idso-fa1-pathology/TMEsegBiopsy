@@ -17,9 +17,9 @@ cd ./tmeseg-train
 cd ./tmeseg-infer
 /usr/bin/python3 main_tme.py \
     -d /path/to/1_cws_tiling \
-    -o /path/to/mit-b3-finetunedBRCA/mask_cws512 \
-    -s /path/to/mit-b3-finetunedBRCA/mask_ss1512 \
-    -sp /path/to/mit-b3-finetunedBRCA/mask_ss1512_post \
+    -o /path/to/mit-b3-finetuned-TCGAbcss-biopsy/mask_cws512 \
+    -s /path/to/mit-b3-finetuned-TCGAbcss-biopsy/mask_ss1512 \
+    -sp /path/to/mit-b3-finetuned-TCGAbcss-biopsy/mask_ss1512_post \
     -p "*.svs" \
     -c \
     -ps 512 \
@@ -27,6 +27,6 @@ cd ./tmeseg-infer
     -nC 6 \
     -n {{index}} \
     -sf 0.0625 \
-    -nJ 32
+    -nJ 5
 
 ```
