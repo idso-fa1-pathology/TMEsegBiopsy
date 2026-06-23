@@ -9,7 +9,7 @@ Please follow instructions in https://github.com/xi11/AIgrading/generating_tiles
 ### Training
 ```
 cd ./tmeseg-train
-/usr/bin/python3 segformer_tmeseg_ftartemis.py
+/usr/bin/python3 segformer_tmeseg_biopsy.py
 ```
 
 ### Inference
