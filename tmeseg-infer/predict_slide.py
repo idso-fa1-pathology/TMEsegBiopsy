@@ -229,7 +229,7 @@ class Patches:
 
 def generate_tme(datapath, save_dir, file_pattern='*.svs', nfile=0, patch_size=384, patch_stride=192, input_size=384, nClass=2, color_norm=True):
     #fine-tuned segformer
-    model_checkpoint = './model/mit-b3-finetuned-TCGAbcss-Artemis'  
+    model_checkpoint = './model/mit-b3-finetuned-TCGAbcss-biopsy'  
     model = TFAutoModelForSemanticSegmentation.from_pretrained(model_checkpoint)
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
