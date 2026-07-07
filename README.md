@@ -60,7 +60,9 @@ docker run --gpus all -it --rm \
 
 This drops you into a bash shell inside the container at `/App`, with the repo's `tmeseg-train`, `tmeseg-eval`, and `tmeseg-infer` folders directly available. The pretrained/fine-tuned checkpoints (step 3, and the models saved by steps 5-6) live inside the repo itself, so they come along for free with the `/App` mount -- no separate mount needed for those. From there, run any of the training/CV/inference commands in steps 5-7 exactly as written (e.g. `cd tmeseg-train && /usr/bin/python3 segformer_tmeseg_biopsy.py`), using `/data/...` for training data, `/slides` for the inference input in step 7's `-d`, and `/output` for its `-o`.
 
-### 5. Reproducing the 5-fold CV results
+### 5. Reproducing the 5-fold CV results (optional)
+
+Skip this step if you are not interested in reproducing results.
 
 These two scripts take no command-line arguments -- open each one and edit the paths in the `if __name__ == "__main__":` block at the bottom before running.
 
