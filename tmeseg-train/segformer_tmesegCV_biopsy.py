@@ -312,7 +312,7 @@ if __name__ == "__main__":
     batch_size = 8
     num_epochs = 60
 
-    model_checkpoint = "../tmeseg-infer/model/mit-b3-finetuned-TCGAbcss"
+    model_checkpoint = "../tmeseg-infer/model/mit-b3-finetuned-TCGAbcss9class"
     output_dir = "../tmeseg-infer/model"
 
     # -----------------------
