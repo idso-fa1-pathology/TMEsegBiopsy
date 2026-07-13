@@ -94,7 +94,7 @@ for i in range(start_file, end_file):
     if i >= len(files):
         break
 
-    ######step1: generate growth pattern for tiles
+    ######step1: generate tme masks for tiles
     generate_tme(datapath=cws_dir, save_dir=mask_dir, file_pattern=args.file_name_pattern,
                  color_norm=args.color_norm, nfile=i, patch_size=args.patch_size,
                  patch_stride=args.patch_size*0.5, input_size=args.input_size, nClass=args.nClass)
