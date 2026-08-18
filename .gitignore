@@ -18,9 +18,11 @@ tmeseg-eval/evaluate_TMEseg6class.py
 # model checkpoints and data
 tmeseg-infer/model/mit*
 data/*.csv
+data/
 figure/*.csv
 figure/*.pdf
 zenodo/
+
 
 
 # Byte-compiled / optimized / DLL files
@@ -50,4 +52,4 @@ outputs/
 *.h5
 *.hdf5
 
-cell-refine/*
+cell-refine/
